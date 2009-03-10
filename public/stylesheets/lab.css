@@ -1,0 +1,165 @@
+html {
+    background-color: #d0e0e6;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666666;
+    line-height: 1.7em;
+}
+
+body {
+    padding: 5em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #a13319;
+    font-weight: bold;
+}
+.contenedor {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #eaf4fa;
+}
+
+.header {
+    height: 59px;
+    background-color: #d0e0e6;
+    margin-bottom: 10px;
+}
+
+#logo {
+    background-image: url(../images/calclablogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+    height: 59px;
+    display: block;
+    float: left;
+}
+
+
+.navigation {
+    float: left;
+    padding-left: 0px;
+    width: 750px;
+    height: 24px;
+    background-color: #8699a7;
+    margin-top: 21px;
+    margin-bottom: 17px;
+}
+
+.navigation ul a {
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 146px;
+    height: 22px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+#services {
+    background-image: url(../images/service_off.png);
+}
+
+#jobs {
+    background-image: url(../images/jobs_off.png);
+}
+
+#opensource {
+    background-image: url(../images/opensource_off.png);
+}
+
+#research {
+    background-image: url(../images/research_off.png);
+}
+
+#contact {
+    background-image: url(../images/envelope.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33px;
+    height: 24px;
+    margin-left: 31px;
+    float: left;
+    margin-right: 0;
+}
+
+#services-on {
+    background-image: url(../images/service_on.png);
+    border: 1px solid #636363;
+}
+
+#jobs-on {
+    background-image: url(../images/jobs_on.png);
+    border: 1px solid #636363;
+}
+
+#opensource-on {
+    background-image: url(../images/opensource_on.png);
+    border: 1px solid #636363;
+}
+
+#research-on {
+    background-image: url(../images/research_on.png);
+    border: 1px solid #636363;
+}
+
+.sidebar {
+    width: 210px;
+    background-color: #eaf4fa;
+    float: left;
+    padding-top: 40px;
+}
+
+.sidebar .first {
+    margin-top: 40px;
+}
+
+.sidebar .txt {
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.main {
+    background-color: #f8fafb;
+    width: 710px;
+    margin-left: 210px;
+    padding: 40px 40px 40px 0px;
+}
+
+.main .first {
+    margin-top: 40px;
+}
+
+
+.main .title {
+    float: left;
+    padding-left: 0px;
+    padding-top: 20px;
+
+}
+.main .txt {
+    margin-left: 155px;
+    margin-right: 70px;
+}
+
+.main .screen {
+    border: solid 1px #afbcc5;
+    margin-left: 53px;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #a1afb4;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+h2 {
+    color: #333333;
+    font-weight: bold;
+    }
+
