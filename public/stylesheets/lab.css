@@ -80,7 +80,7 @@ a {
     background-position: center;
     width: 33px;
     height: 24px;
-    margin-left: 31px;
+    margin-left: 33px;
     float: left;
     margin-right: 0;
 }
@@ -140,6 +140,23 @@ a {
     padding-top: 20px;
 
 }
+
+#consulting {
+    padding-top: 20px;
+}
+
+#training {
+    padding-top: 40px;
+}
+
+#development {
+    padding-top: 50px;
+}
+
+#design {
+    padding-top: 35px;
+}
+
 .main .txt {
     margin-left: 155px;
     margin-right: 70px;
@@ -148,8 +165,18 @@ a {
 .main .screen {
     border: solid 1px #afbcc5;
     margin-left: 53px;
+    }
 
+.main .screen1 {
+    border: solid 1px #afbcc5;
+    margin-left: 53px;
+    float: left;
 }
+
+.main .screen2 {
+    border: solid 1px #afbcc5;
+    margin-left: 5px;
+ }
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
