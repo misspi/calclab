@@ -162,11 +162,6 @@ a {
     margin-right: 70px;
 }
 
-.main .screen {
-    border: solid 1px #afbcc5;
-    margin-left: 53px;
-    }
-
 .main .screen1 {
     border: solid 1px #afbcc5;
     margin-left: 53px;
@@ -177,6 +172,17 @@ a {
     border: solid 1px #afbcc5;
     margin-left: 5px;
  }
+
+  .main .c1 {
+  float: left;
+
+}
+
+ .main .c2 {
+    margin-left: 210px;
+    margin-right: 70px;
+
+}
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
