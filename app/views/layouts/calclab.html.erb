@@ -13,15 +13,17 @@
       <a id="logo" href="services.html"></a>
       <div class="navigation">
         <ul>
-          <li><a id="services" href="/services"></a></li>
-          <li><a id="jobs" href="/jobs"></a></li>
-          <li><a id="opensource" href="/opensource"></a></li>
-          <li><a id="research" href="/research"></a></li>
+          <li><%= navigation_link 'services' %></li>
+          <li><%= navigation_link 'jobs' %></li>
+          <li><%= navigation_link 'opensource' %></li>
+          <li><%= navigation_link 'research' %></li>
           <li><a id="contact" href="mailto:calcies@calcaxy.com"> </a></li>
         </ul>
       </div>
     </div>
 
+
     <%= yield %>
+    <%= render :partial => '/layouts/ga' %>
   </body>
 </html>

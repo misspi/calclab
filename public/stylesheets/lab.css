@@ -53,26 +53,20 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     width: 146px;
-    height: 22px;
+    height: 24px;
     margin-left: 5px;
     margin-right: 20px;
+    text-indent: -10000px;
 }
 
-#services {
-    background-image: url(../images/service_off.png);
-}
-
-#jobs {
-    background-image: url(../images/jobs_off.png);
-}
-
-#opensource {
-    background-image: url(../images/opensource_off.png);
-}
-
-#research {
-    background-image: url(../images/research_off.png);
-}
+#services { background-image: url(../images/service_off.png); }
+#services.active { background-image: url(../images/service_on.png); }
+#jobs {    background-image: url(../images/jobs_off.png); }
+#jobs.active {    background-image: url(../images/jobs_on.png); }
+#opensource {     background-image: url(../images/opensource_off.png); }
+#opensource.active {     background-image: url(../images/opensource_on.png); }
+#research {     background-image: url(../images/research_off.png); }
+#research.active {     background-image: url(../images/research_on.png); }
 
 #contact {
     background-image: url(../images/envelope.png);

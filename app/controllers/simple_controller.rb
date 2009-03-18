@@ -2,6 +2,8 @@ class SimpleController < ApplicationController
   layout 'calclab'
 
 
+
+
   def services
   end
 
