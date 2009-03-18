@@ -3,3 +3,12 @@
 
 en:
   hello: "Hello world"
+
+  jobs:
+    despachodepan:
+      job: design and programming
+      desc: web content management system programmed with ruby for a spanish archictecture studio.
+    novaron:
+      job: design and programming
+      desc: web content management system programmed with ruby for a swiss archictecture studio.
+      

@@ -3,8 +3,8 @@
   <div class="sidebar txt">
     <div class="first"> </div>
     <a class="txt" href="http://www.despachodepan.com">www.despachodepan.com</a>
-    <h2 class="txt">design and programming</h2>
-    <p class="txt">web content management system programmed with ruby for a spanish archictecture studio.</p>
+    <h2 class="txt"><%= t :job, :scope => [:jobs, :despachodepan]  %></h2>
+    <p class="txt"><%= t :desc, :scope => [:jobs, :despachodepan] %></p>
   </div>
 
   <div class="main">
@@ -17,9 +17,8 @@
 <div class="contenedor">
   <div class="sidebar">
     <a class="txt" href="http://www.novaron.ch">www.novaron.ch</a>
-    <h2 class="txt">
-    design and programming</h2>
-  <p class="txt">web content management system programmed with ruby for a swiss archictecture studio.</p></div>
+    <h2 class="txt"><%= t :job, :scope => [:jobs, :novaron]  %></h2>
+  <p class="txt"><%= t :desc, :scope => [:jobs, :novaron]  %></p></div>
   <div class="main">
     <img class="screen1" src="/images/novaron_01.png" />
     <img class="screen2" src="/images/novaron_02.png" />
