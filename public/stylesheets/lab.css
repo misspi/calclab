@@ -171,16 +171,23 @@ a {
 .main .screen2 {
     border: solid 1px #afbcc5;
     margin-left: 5px;
- }
+}
 
-  .main .c1 {
-  float: left;
+.main .c1 {
+    float: left;
 
 }
 
- .main .c2 {
-     width: 480px;
+.main .c2 {
+    width: 480px;
     margin-left: 210px;
+    margin-right: 70px;
+
+}
+
+.main .c3 {
+    width: 410px;
+    margin-left: 270px;
     margin-right: 70px;
 
 }
@@ -195,5 +202,5 @@ h1 {
 h2 {
     color: #333333;
     font-weight: bold;
-    }
+}
 
