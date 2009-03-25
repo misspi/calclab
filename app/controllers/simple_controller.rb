@@ -1,8 +1,9 @@
 class SimpleController < ApplicationController
   layout 'calclab'
 
-
-
+  def index
+    redirect_to :action => 'services'
+  end
 
   def services
   end

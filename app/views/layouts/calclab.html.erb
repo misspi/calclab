@@ -7,8 +7,14 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css" />
     <link href="/stylesheets/lab.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
   </head>
   <body>
+    <%= link_to image_tag('calcaxy.png'), 'http://calcaxy.com',  :id => 'calcaxy', :style => 'display: none' %>
+
+
+    <div class="contenedor lang"><%= link_to '[en]', :locale => 'en' %> <%= link_to '[es]', :locale => 'es' %></div>
+
     <div class="contenedor header">
       <a id="logo" href="/"></a>
       <div class="navigation">
@@ -22,8 +28,17 @@
       </div>
     </div>
 
-
+    <div id="linker" class="contenedor" />
     <%= yield %>
     <%= render :partial => '/layouts/ga' %>
   </body>
+
+  <script type="text/javascript">
+      $(function() {
+        var offset = $("#linker").offset();
+        var width = $("#linker").width();
+        $("#calcaxy").css('left', (offset.left + width + 5)).css('top', offset.top).show();
+      });
+  </script>
+
 </html>

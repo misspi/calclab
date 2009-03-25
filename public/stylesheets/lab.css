@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    padding: 5em 0;
+    padding: 0 0 5em 0;
 }
 
 a {
@@ -19,8 +19,18 @@ a {
     width: 960px;
     margin: 0 auto;
     background-color: #eaf4fa;
-    
-          }
+}
+
+.contenedor.lang {
+    margin-bottom: 4em;
+    background-color: #d0e0e6;
+    text-align: right;
+}
+
+.lang a {
+    color: black;
+    font-weight: normal;
+}
 
 .header {
     height: 59px;
@@ -36,6 +46,10 @@ a {
     height: 59px;
     display: block;
     float: left;
+}
+
+#calcaxy {
+    position: absolute;
 }
 
 
