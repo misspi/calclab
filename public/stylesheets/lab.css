@@ -19,7 +19,8 @@ a {
     width: 960px;
     margin: 0 auto;
     background-color: #eaf4fa;
-}
+    
+          }
 
 .header {
     height: 59px;
@@ -79,26 +80,6 @@ a {
     margin-right: 0;
 }
 
-#services-on {
-    background-image: url(../images/service_on.png);
-    border: 1px solid #636363;
-}
-
-#jobs-on {
-    background-image: url(../images/jobs_on.png);
-    border: 1px solid #636363;
-}
-
-#opensource-on {
-    background-image: url(../images/opensource_on.png);
-    border: 1px solid #636363;
-}
-
-#research-on {
-    background-image: url(../images/research_on.png);
-    border: 1px solid #636363;
-}
-
 .sidebar {
     width: 210px;
     background-color: #eaf4fa;
@@ -121,7 +102,16 @@ a {
     width: 710px;
     margin-left: 210px;
     padding: 40px 40px 40px 0px;
-}
+        }
+
+#calc {
+    background-image: url(../images/calcaxy.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 204px;
+   
+    
+    }
 
 .main .first {
     margin-top: 40px;
@@ -185,6 +175,8 @@ a {
     margin-right: 70px;
 
 }
+
+
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
