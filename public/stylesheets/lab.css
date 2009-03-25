@@ -22,13 +22,14 @@ a {
 }
 
 .contenedor.lang {
-    margin-bottom: 4em;
+    margin-top: 0.5em;
+    margin-bottom: 3.5em;
     background-color: #d0e0e6;
     text-align: right;
 }
 
 .lang a {
-    color: black;
+    color: #8699a7;
     font-weight: normal;
 }
 
@@ -171,19 +172,19 @@ a {
     margin-left: 5px;
 }
 
-.main .c1 {
+.main .columna1 {
     float: left;
 
 }
 
-.main .c2 {
+.main .columna2 {
     width: 480px;
     margin-left: 210px;
     margin-right: 70px;
-
+    margin-bottom: 1em;
 }
 
-.main .c3 {
+.main .columna3 {
     width: 410px;
     margin-left: 270px;
     margin-right: 70px;
