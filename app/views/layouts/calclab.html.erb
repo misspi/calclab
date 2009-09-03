@@ -16,7 +16,8 @@
     <div class="contenedor lang"><%= link_to '[en]', :locale => 'en' %> <%= link_to '[es]', :locale => 'es' %></div>
 
     <div class="contenedor header">
-      <a id="logo" href="/"></a>
+      <%= link_to '', {:action => 'calclab'}, :id => 'logo' %>
+      <!--a id="logo" href="/"></a -->
       <div class="navigation">
         <ul>
           <li><%= navigation_link 'services' %></li>

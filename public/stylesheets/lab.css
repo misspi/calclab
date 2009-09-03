@@ -6,6 +6,13 @@ html {
     line-height: 1.7em;
 }
 
+
+
+.calc {
+    font-family: monospace;
+    letter-spacing: 0.3em;
+}
+
 body {
     padding: 0 0 5em 0;
 }
@@ -15,6 +22,28 @@ a {
     color: #a13319;
     font-weight: bold;
 }
+
+h3 {
+    font-size: 200%;
+    margin-left: 210px;
+    color: #a1afb4;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5em;
+    line-height: 1.3em;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #a1afb4;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+h2 {
+    color: #333333;
+    font-weight: bold;
+}
+
 .contenedor {
     width: 960px;
     margin: 0 auto;
@@ -117,16 +146,16 @@ a {
     width: 710px;
     margin-left: 210px;
     padding: 40px 40px 40px 0px;
-        }
+}
 
 #calc {
     background-image: url(../images/calcaxy.png);
     background-repeat: no-repeat;
     width: 16px;
     height: 204px;
-   
-    
-    }
+
+
+}
 
 .main .first {
     margin-top: 40px;
@@ -191,17 +220,17 @@ a {
 
 }
 
-
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #a1afb4;
-    font-weight: bold;
-    letter-spacing: 0.1em;
+.main ul {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
 }
-h2 {
-    color: #333333;
-    font-weight: bold;
+
+.main ul li {
+    color: #8699a7;
+    list-style-type: square;
+    margin-left: 200px;
+    margin-top: 2px;
+    font-style: italic;
 }
+
 

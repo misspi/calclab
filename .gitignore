@@ -2,4 +2,6 @@ nbproject
 tmp
 log
 config/database.yml
+config/git.yml
+public/cache/**
 

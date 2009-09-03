@@ -1,0 +1,27 @@
+
+es:
+  jobs:
+    despachodepan:
+      job: diseño y programación
+      desc: desarrollo a medida de una herramienta para la gestión de proyectos
+    novaron:
+      job: diseño y programación
+      desc: página web y portal 
+    elmagreb:
+      job: diseño y programación
+      desc: desarrollo de un sistema de gestión y publicación de contenidos
+    apy:
+      job: diseño y programación
+      desc: desarrollo de un sistema de gestión y publicación de contenidos
+    demosaica:
+      job: diseño
+      desc: diseño e implementación de página web
+    casamasomenos:
+      job: diseño
+      desc: diseño e implementación de página web
+    centrouses:
+      job: diseño
+      desc: diseño e implementación de página web
+    
+
+

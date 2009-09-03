@@ -1,7 +1,11 @@
 # SOURCES setup users: http://www.viget.com/extend/building-an-environment-from-scratch-with-capistrano-2/
 # setup deploy: http://www.capify.org/getting-started/from-the-beginning/
 
-default_run_options[:pty] = true  
+
+require 'yaml'
+GIT = YAML.load_file("#{File.dirname(__FILE__)}/git.yml")
+
+default_run_options[:pty] = true
 set :application, "calclab"
 set :deploy_to, "/home/deploy/#{application}"
 set :user, "deploy"
@@ -12,7 +16,7 @@ set :repository,  "git@github.com:misspi/calclab.git"
 set :branch, "master"
 set :deploy_via, :remote_cache
 set :scm_verbose, true
-# set :git_shallow_clone, 1 #set :git_enable_submodules, 1
+set :scm_passphrase, GIT['password']
 
 role :app, "toami.net"
 role :web, "toami.net"
