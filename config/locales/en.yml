@@ -6,9 +6,23 @@ en:
 
   jobs:
     despachodepan:
-      job: design and programming
-      desc: web content management system programmed with ruby for a spanish archictecture studio.
+      job: design of ci and programming
+      desc: personalized web application for project management for a spanish archictecture studio.
     novaron:
       job: design and programming
-      desc: web content management system programmed with ruby for a swiss archictecture studio.
-      
+      desc: web content management system and portal for a swiss archictecture studio.
+    elmagreb:
+      job: design and programming
+      desc: content management system for a spanish ong.
+    apy:
+      job: design and programming
+      desc: content management system for a spanish ong.
+    demosaica:
+      job: design of ci
+      desc: design of ci and implementation of webpage for a spanish tiles producer.
+    casamasomenos:
+      job: design of ci
+      desc: design of ci and implementation of webpage for a spanish archictecture studio.
+    centrouses:
+      job: design
+      desc: design and implementation of webpage for sevillas architecture university.
