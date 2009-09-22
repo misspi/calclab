@@ -13,7 +13,7 @@ set :user, "dani"
 set :use_sudo, false
 
 set :scm, "git"
-set :repository,  "git@github.com:danigb/calcaxy.git"
+set :repository,  "git@github.com:misspi/calclab.git"
 set :branch, "master"
 set :deploy_via, :remote_cache
 set :scm_verbose, true
@@ -34,8 +34,8 @@ namespace :config do
     %w[database.yml].each do |f|
       run "ln -nsf #{shared_path}/config/#{f} #{release_path}/config/#{f}"
     end
-    run "ln -nsf  /home/calcies/www/calcaxy.com/ #{release_path}/public/archives"
-    run "ln -sf #{shared_path}/files #{release_path}/public/files"
+#    run "ln -nsf  /home/calcies/www/calcaxy.com/ #{release_path}/public/archives"
+#    run "ln -sf #{shared_path}/files #{release_path}/public/files"
   end
 end
 
