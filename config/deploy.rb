@@ -34,8 +34,8 @@ namespace :config do
     %w[database.yml].each do |f|
       run "ln -nsf #{shared_path}/config/#{f} #{release_path}/config/#{f}"
     end
-    run "ln -nsf  /home/calcies/www/calcaxy.com/ #{release_path}/public/archives"
-    run "ln -sf #{shared_path}/files #{release_path}/public/files"
+#    run "ln -nsf  /home/calcies/www/calcaxy.com/ #{release_path}/public/archives"
+#    run "ln -sf #{shared_path}/files #{release_path}/public/files"
   end
 end
 
