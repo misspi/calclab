@@ -102,7 +102,7 @@ h2 {
 
 .navigation ul li {
     display: inline;
-    }
+}
 
 #services { background-image: url(../images/service_off.gif); }
 #services.active { background-image: url(../images/service_on.gif);}
@@ -135,7 +135,7 @@ h2 {
     margin-top: 40px;
 }
 .sidebarhome {
-background-color: #eaf4fa;
+    background-color: #eaf4fa;
     float: left;
     width: 406px;
     height: 530px;
@@ -185,21 +185,6 @@ background-color: #eaf4fa;
 
 }
 
-#consulting {
-
-}
-
-#training {
-
-}
-
-#development {
-
-}
-
-#design {
-
-}
 
 .main .txt {
     margin-left: 155px;
@@ -219,23 +204,22 @@ background-color: #eaf4fa;
 }
 
 .main .columna1 {
-    display:block;
     float: left;
-
+    display: block;
+    width: 220px;
 }
 
 .main .columna2 {
+overflow: hidden;
     width: 440px;
-    margin-left: 210px;
-    margin-right: 70px;
-    margin-bottom: 1em;
+    margin-right: 50px;
 }
 
 .main .columna3 {
+    overflow: hidden;
     width: 410px;
-    margin-left: 270px;
-    margin-right: 70px;
-
+padding-left:15px;
+    margin-right: 20px;
 }
 
 .main ul {
@@ -258,10 +242,10 @@ background-color: #eaf4fa;
 }
 
 .author {
-   font-size: 10px;
-   font-style: italic;
-   line-height: 1.7em;
-   text-align:right;
+    font-size: 10px;
+    font-style: italic;
+    line-height: 1.7em;
+    text-align:right;
 }
 
 
