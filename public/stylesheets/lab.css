@@ -1,16 +1,13 @@
 html {
     background-color: #d0e0e6;
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     color: #666666;
     line-height: 1.7em;
 }
 
-
-
 .calc {
-    font-family: monospace;
-    letter-spacing: 0.3em;
+    font-weight: bold;
 }
 
 body {
@@ -19,7 +16,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #a13319;
+    color: #673300;
     font-weight: bold;
 }
 
@@ -66,10 +63,11 @@ h2 {
     height: 59px;
     background-color: #d0e0e6;
     margin-bottom: 10px;
+
 }
 
 #logo {
-    background-image: url(../images/calclablogo.png);
+    background-image: url(../images/calclablogo.gif);
     background-repeat: no-repeat;
     background-position: center;
     width: 210px;
@@ -85,7 +83,6 @@ h2 {
 
 .navigation {
     float: left;
-    padding-left: 0px;
     width: 750px;
     height: 24px;
     background-color: #8699a7;
@@ -99,22 +96,25 @@ h2 {
     background-position: center;
     width: 146px;
     height: 24px;
-    margin-left: 5px;
-    margin-right: 20px;
+    margin: 0 20px 0 5px;
     text-indent: -10000px;
 }
 
-#services { background-image: url(../images/service_off.png); }
-#services.active { background-image: url(../images/service_on.png); }
-#jobs {    background-image: url(../images/jobs_off.png); }
-#jobs.active {    background-image: url(../images/jobs_on.png); }
-#opensource {     background-image: url(../images/opensource_off.png); }
-#opensource.active {     background-image: url(../images/opensource_on.png); }
-#research {     background-image: url(../images/research_off.png); }
-#research.active {     background-image: url(../images/research_on.png); }
+.navigation ul li {
+    display: inline;
+}
+
+#services { background-image: url(../images/service_off.gif); }
+#services.active { background-image: url(../images/service_on.gif);}
+#jobs { background-image: url(../images/jobs_off.gif);}
+#jobs.active { background-image: url(../images/jobs_on.gif);}
+#opensource { background-image: url(../images/opensource_off.gif);}
+#opensource.active { background-image: url(../images/opensource_on.gif);}
+#research { background-image: url(../images/research_off.gif);}
+#research.active { background-image: url(../images/research_on.gif);}
 
 #contact {
-    background-image: url(../images/envelope.png);
+    background-image: url(../images/envelope.gif);
     background-repeat: no-repeat;
     background-position: center;
     width: 33px;
@@ -134,11 +134,15 @@ h2 {
 .sidebar .first {
     margin-top: 40px;
 }
-
+.sidebarhome {
+    background-color: #eaf4fa;
+    float: left;
+    width: 406px;
+    height: 530px;
+}
 .sidebar .txt {
     padding-left: 5px;
     padding-right: 5px;
-
 }
 
 .main {
@@ -148,13 +152,26 @@ h2 {
     padding: 40px 40px 40px 0px;
 }
 
+.mainhome {
+    background-color: #f8fafb;
+    width: 494px;
+    height: 420px;
+    float: left;
+    padding: 70px 40px 40px 20px;
+}
+
+.txthome {
+    width: 400px;
+    margin-left: 20px;
+    margin-bottom: 1em;
+}
+
+
 #calc {
     background-image: url(../images/calcaxy.png);
     background-repeat: no-repeat;
     width: 16px;
     height: 204px;
-
-
 }
 
 .main .first {
@@ -165,29 +182,14 @@ h2 {
 .main .title {
     float: left;
     padding-left: 0px;
-    padding-top: 20px;
 
 }
 
-#consulting {
-    padding-top: 20px;
-}
-
-#training {
-    padding-top: 40px;
-}
-
-#development {
-    padding-top: 50px;
-}
-
-#design {
-    padding-top: 35px;
-}
 
 .main .txt {
     margin-left: 155px;
     margin-right: 70px;
+
 }
 
 .main .screen1 {
@@ -203,21 +205,21 @@ h2 {
 
 .main .columna1 {
     float: left;
-
+    display: block;
+    width: 220px;
 }
 
 .main .columna2 {
-    width: 480px;
-    margin-left: 210px;
-    margin-right: 70px;
-    margin-bottom: 1em;
+overflow: hidden;
+    width: 440px;
+    margin-right: 50px;
 }
 
 .main .columna3 {
+    overflow: hidden;
     width: 410px;
-    margin-left: 270px;
-    margin-right: 70px;
-
+padding-left:15px;
+    margin-right: 20px;
 }
 
 .main ul {
@@ -231,6 +233,19 @@ h2 {
     margin-left: 200px;
     margin-top: 2px;
     font-style: italic;
+}
+
+.names {
+    font-size: 10px;
+    margin-left: 20px;
+    line-height: 1.7em;
+}
+
+.author {
+    font-size: 10px;
+    font-style: italic;
+    line-height: 1.7em;
+    text-align:right;
 }
 
 

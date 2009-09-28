@@ -8,5 +8,7 @@ require File.join(File.dirname(__FILE__), 'boot')
 Rails::Initializer.run do |config|
   config.time_zone = 'UTC'
   config.action_controller.page_cache_directory = RAILS_ROOT + "/public/cache/"
-  config.frameworks -= [:active_record ] 
+  config.frameworks -= [:active_record ]
+
+
 end
