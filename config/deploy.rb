@@ -8,12 +8,12 @@ GIT = YAML.load_file("#{File.dirname(__FILE__)}/git.yml")
 
 default_run_options[:pty] = true
 set :application, "calclab"
-set :deploy_to, "/home/dani/deploy/#{application}"
-set :user, "dani"
+set :deploy_to, "/home/deploy/#{application}"
+set :user, "deploy"
 set :use_sudo, false
 
 set :scm, "git"
-set :repository,  "git@github.com:misspi/calclab.git"
+set :repository,  "git://github.com/misspi/calclab.git"
 set :branch, "master"
 set :deploy_via, :remote_cache
 set :scm_verbose, true
